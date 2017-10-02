@@ -46,7 +46,7 @@ namespace Exe2PraPOOHeranca
         }
         public override string ToString()
         {
-            return Nome + " da escola" + base.EscName + " ( "+ base.EscMorada +" ) obteve "+ Nota + " Valores";
+            return Nome + " da escola " + base.EscName + " ( "+ base.EscMorada +" ) obteve "+ Nota + " Valores";
         }
     }
 
@@ -54,7 +54,7 @@ namespace Exe2PraPOOHeranca
     {
         static void Main(string[] args)
         {
-        string[,] Nomes = { { " Teresa ", " ABC " }, { "Anibal", "Rio Tinto"}, { "Rui", " Fancos"},
+        string[,] Nomes = { { "Teresa", "ABC" }, { "Anibal", "Rio Tinto"}, { "Rui", " Fancos"},
         {"Victor", "Bolhao" }, {"Joana", "Bom Sucesso"}};
         int[,] Testes = { { 10, 12 }, { 11, 10 }, { 12, 12 }, { 8, 12 }, { 14, 15 } };
         Aluno[] A = new Aluno[5];
